@@ -1,6 +1,10 @@
-import './assets/main.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router'; // 라우터 import
+import './styles/index.css';
 
-import { createApp } from 'vue'
-import { App } from './App.vue'
+const app = createApp(App);
 
-createApp(App).mount('#app')
+app.use(router); // 라우터를 앱에 등록
+
+app.mount('#app');

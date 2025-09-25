@@ -29,7 +29,15 @@ coverage
 
 *.tsbuildinfo
 
+# Vite
+.vite
+
+# Wasm / Rust
+/wasm-core/target
+/wasm-core/pkg
+
 #personal
 .firebase
 .env
-docs
+errors
+/docs/tree.txt
