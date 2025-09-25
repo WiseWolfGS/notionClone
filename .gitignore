@@ -36,8 +36,10 @@ coverage
 /wasm-core/target
 /wasm-core/pkg
 
+# Gemini
+GEMINI.md
+
 #personal
 .firebase
 .env
 errors
-/docs/tree.txt
